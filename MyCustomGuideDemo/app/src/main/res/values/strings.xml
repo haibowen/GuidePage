@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MyCustomGuideDemo</string>
+    <string name="photo_guide_title">拍照识别引导</string>
+    <string name="photo_wrong_show">错误引导</string>
+    <string name="tv_title_guide">横向拍照</string>
+    <string name="tv_centent_guide">请在光线状况良好的情况下拍摄，尽量使文字布满拍摄区域，并保证文字方向与提示文案方向平行。</string>
+
+    <string name="tv_content_title_third">调整识别范围</string>
+    <string name="tv_content_guide_third">请适当调整识别范围，尽量保证文本完整。同时识别区域内文字过密过小
+影响识别的质量。</string>
+
+    <string name="tv_content_wrong_guide_first">未横平竖直拍摄</string>
+    <string name="tv_content_wrong_guide_second">拍摄方向与识别方向不一致</string>
+    <string name="tv_content_wrong_guide_third">字迹潦草</string>
+    <string name="tv_content_wrong_guide_fourth">光线过弱</string>
+
+    <string name="dialog_show_title">请适当调整识别范围以保证\n识别准确率。</string>
+
+</resources>

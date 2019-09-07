@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="270dp"
+        android:layout_height="231dp"
+        android:background="@drawable/bg_dialog_show">
+    <TextView
+        android:id="@+id/tv_show_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_show_title"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:layout_marginTop="30dp"/>
+
+    <ImageView
+        android:id="@+id/iv_show"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_show_title"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/iv_peitu_icon" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_show"
+        android:layout_toRightOf="@id/iv_show"
+        android:background="@mipmap/ic_guide_hand_icon" />
+
+    <ImageView
+        android:id="@+id/iv_show_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_show"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="40dp"
+        android:background="@mipmap/iv_grouping_select" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_show"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="12dp"
+        android:layout_toRightOf="@id/iv_show_select"
+        android:gravity="center"
+        android:text="不再展示"
+        android:textSize="12sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffe7e7e7"
+            android:layout_marginTop="12dp"
+            android:id="@+id/view_line"
+            android:layout_below="@id/iv_show_select"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view_line"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="40dp"
+            android:text="继续识别"
+            android:textSize="14sp"
+            android:id="@+id/tv_content_spot"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#ffe7e7e7"
+            android:id="@+id/view_vert_line"
+            android:layout_toRightOf="@id/tv_content_spot"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@id/view_line"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view_line"
+            android:layout_marginTop="13dp"
+            android:text="返回调整"
+            android:textSize="14sp"
+            android:id="@+id/tv_back_photo"
+            android:layout_marginLeft="40dp"
+            android:layout_toRightOf="@id/view_vert_line"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

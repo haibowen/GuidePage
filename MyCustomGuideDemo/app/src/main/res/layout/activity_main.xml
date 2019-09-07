@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_gravity="bottom"
+        android:paddingStart="15dp"
+        android:paddingLeft="15dp"
+        android:paddingEnd="15dp"
+        android:paddingRight="15dp">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/iv_show_circle_one"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:background="@mipmap/iv_guide_select_circle" />
+
+            <ImageView
+                android:id="@+id/iv_show_circle_two"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginLeft="7dp"
+
+                android:background="@mipmap/iv_guide_unselect_circle" />
+
+            <ImageView
+                android:id="@+id/iv_show_circle_three"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginLeft="7dp"
+
+                android:background="@mipmap/iv_guide_unselect_circle" />
+
+            <ImageView
+                android:id="@+id/iv_show_circle_four"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginLeft="7dp"
+                android:background="@mipmap/iv_guide_unselect_circle" />
+
+        </LinearLayout>
+    </FrameLayout>
+    <ImageView
+        android:id="@+id/iv_finsh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:background="@mipmap/iv_photo_back"/>
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
